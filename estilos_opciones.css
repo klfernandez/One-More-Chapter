@@ -1,0 +1,74 @@
+body {
+    background-image: url(Diseño\ sin\ título.png);
+    margin: 0;
+    padding: 0;
+  }
+/*LIBROS*/
+a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+    background: #756f4b;
+    color: #f0ebd7;
+    font-weight: bold;
+  }
+  a:hover {
+    text-align: center;
+    background: #a9a27c;
+  }
+  /*FONDO DE LOS BLOQUES DE LIBROS DESPLEGADOS */
+  h3 {
+    background: #a9a27c;
+    padding: 20px;
+  }
+   /*espacio de la princesa a heima  */
+  main{
+      margin-top: 50px;
+  }
+  .item{
+      scroll-margin-top: 0ex;
+  }
+  html{
+      scroll-behavior:smooth;
+  }
+  /* PORTADA */
+  .portada {
+    background-color: #afb07b;
+    text-align: center;
+    padding: 70px;
+    color: #4d4d4d;
+  }
+  /* FANTASIA */
+  .portada h1 {
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /* la fantasia es el lienzo... */
+  .portada p {
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  /* BOTON DE MOSTRAR LOS LIBROS */
+  .portada button {
+      background-color: #756f4b;
+      font-size:small ;
+      font-family:'Courier New', Courier, monospace ;
+      color: #e8e1d0;
+      padding: 10px 20px;
+      border-radius: 4px;
+  }
+  
+  .portada button:hover {
+    background-color: #4d4d4d;
+  }
+  /* PRIMERAS OPCIONES */
+  .opciones {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+    background-color:#efefb7;
+    text-align: center;
+    padding: 30px;
+    color: #4d4d4d;
+    margin-top: 0px;
+  }

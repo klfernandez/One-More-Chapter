@@ -1,0 +1,50 @@
+body {
+    background-image: url(Diseño\ sin\ título.png);
+    margin: 0;
+    padding: 0;
+  }
+  
+   /*espacio de boton a informacion  */
+  main{
+      margin-top: 30px;
+  }
+  /* PORTADA */
+  .portada {
+    background-color: #afb07b;
+    text-align: center;
+    padding: 70px;
+    color: #4d4d4d;
+  }
+  /* TITULO */
+  .portada h1 {
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /* la frase... */
+  .portada p {
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  /* BOTON DE MOSTRAR LOS LIBROS */
+  .portada button {
+      background-color: #756f4b;
+      font-size:small ;
+      font-family:'Courier New', Courier, monospace ;
+      color: #e8e1d0;
+      padding: 10px 20px;
+      border-radius: 4px;
+  }
+  
+  .portada button:hover {
+    background-color: #4d4d4d;
+  }
+  /* frases */
+  .frases {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+    background-color:#efefb7;
+    text-align: center;
+    padding: 30px;
+    color: #4d4d4d;
+    margin-top: 0px;
+  }

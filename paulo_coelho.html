@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo_autores.css">
+    <style>
+        .columnas {
+          display: flex;
+        }
+      
+        .columna {
+          width: 50%;
+          list-style-type: none;
+          padding: 0;
+        }
+      </style>
+</head>
+<body>
+    <script>
+        function mostrarOpciones() {
+           var opciones = document.getElementById("opciones");
+           opciones.style.display = "block";
+         }
+       </script>
+       
+     </head>
+     <body>
+       <div class="portada">
+         <h1>Paulo Coelho</h1>
+         <p>"Cada persona en la Tierra juega un papel central en la historia del mundo… Y normalmente no sabe cuál"
+         </p>
+         <br>
+         <button onclick="mostrarOpciones()">Mostrar libros</button>
+       </div>
+     
+       <div id="opciones" class="opciones">
+        <br>
+        <div class="columnas">
+            <ul class="columna">
+              <li> <h4>ONCE MINUTOS</h4></li>
+              <li><h4>VERONIKA DECIDE MORIR</h4></li>
+              <li><h4>ALEPH</h4></li>
+              <li><h4>BRIDA</h4></li>
+              <li><h4>EL ALQUIMISTA</h4></li>
+            </ul>
+            <ul class="columna">
+              <li> <h4>EL ZAHIR</h4></li>
+              <li><h4>EL PEREGRINO DE COMPOSTELA</h4></li>
+              <li><h4>MAKTUB</h4></li>
+              <li><h4>VALQUIRIAS</h4></li>
+              <li><h4>ADULTERIO</h4></li>
+            </ul>
+          </div>
+</body>
+</html>

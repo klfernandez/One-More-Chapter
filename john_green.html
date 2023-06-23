@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>john_green</title>
+    <link rel="stylesheet" href="estilo_autores.css">
+    <style>
+        .columnas {
+          display: flex;
+        }
+      
+        .columna {
+          width: 50%;
+          list-style-type: none;
+          padding: 0;
+        }
+      </style>
+</head>
+<body>
+    <script>
+        function mostrarOpciones() {
+           var opciones = document.getElementById("opciones");
+           opciones.style.display = "block";
+         }
+       </script>
+       
+     </head>
+     <body>
+       <div class="portada">
+         <h1>John Green</h1>
+         <p>"Nadie se despide de ti si no quiere volver a verte"
+        <br>Mil veces hasta siempre</p>
+         <br>
+         <button onclick="mostrarOpciones()">Mostrar libros</button>
+       </div>
+     
+       <div id="opciones" class="opciones">
+        <br>
+        <div class="columnas">
+            <ul class="columna">
+              <li> <h4>BUSCANDO A ALASKA</h4></li>
+              <li><h4>BAJO LA MISMA ESTRELLA</h4></li>
+              <li><h4>EL TEOREMA DE KATHERINE</h4></li>
+              <li><h4>MIL VECES HASTA SIEMPRE</h4></li>
+              <li><h4>CIUDADES DE PAPEL</h4></li>
+            </ul>
+            <ul class="columna">
+              <li> <h4>TU MUNDO Y EL MÍO</h4></li>
+              <li><h4>LET IT SNOW</h4></li>
+              <li><h4>TAGE WIE DIESE</h4></li>
+              <li><h4>WILL GRAYSON</h4></li>
+              <li><h4>NORMAN CONQUEST</h4></li>
+            </ul>
+          </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneMoreChapter</title>
+    <link rel="stylesheet" href="estilos113.css">
+    <script src="script.js"></script>
+  
+  <script>
+  var nombre = prompt("Por favor, introduce tu nombre:");
+  alert("¡Hola, " + nombre + "!");
+  alert("Es un gusto que estés es esta página");
+  alert("Esta es una página con contenido acerca de libros");
+  var respuesta = confirm("¿Quieres ver un poco sobre libros?");
+
+  if (respuesta) {
+    document.getElementById("contenido").style.display = "block";
+  } else {
+    alert("Será en otra oportunidad entonces. ¡Gracias!");
+  }
+</script>
+
+
+<div id="contenido">
+
+</div>
+
+  <script>
+   function mostrarOpciones() {
+      var opciones = document.getElementById("opciones");
+      opciones.style.display = "block";
+    }
+  </script>
+  
+</head>
+<body>
+  <div class="portada">
+    <h1>One more chapter</h1>
+    <p>Leer es vivir más de una vez</p>
+    <br>
+    <button onclick="mostrarOpciones()">Inicio</button>
+  </div>
+
+  <div id="opciones" class="opciones">
+    <header>
+      <nav>
+              <h4><a href="#genero">GÉNERO</a></h4>
+              <h4><a href="#autores">AUTORES</a></h4>
+              <h4><a href="#frases">FRASES</a></h4>
+              <h4><a href="#seccion_comentarios">COMENTARIOS</a></h4>
+      </nav>
+    </header>
+    
+    <main>
+    
+      <div class="item" id="genero">
+          <h3>GÉNERO</h3>
+          <br>
+          <h3><a href="generos.html">Fantasía</a></h3>
+          <h3><a href="thrillers.html">Thrillers</a></h3>
+          <h3><a href="romance.html">Romance</a></h3>
+          <h3><a href="clasicos.html">Clásicos</a></h3>
+    <br><br>
+      <div class="item" id="autores">
+          <h3>AUTORES</h3>
+          <br>
+          <h3><a href="john_green.html">John Green</a></h3>
+          <h3><a href="alice_kellwn.html">Alice Kellen</a></h3>
+          <h3><a href="paulo_coelho.html">Paulo Coelho</a></h3>
+          <h3><a href="anna_franko.html">Anna K. Franco</a></h3>      
+      </div>
+    
+      <div class="item" id="frases">
+          <h3>FRASES</h3>
+          <br>
+          <h3><a href="frases_J_G.html">--Frases literarias de John Green--</a></h3>
+          <h3><a href="frases_P_C.html">--Frases literarias de Paulo Coelho--</a></h3>
+          <h3><a href="frases_A_K.html">--Frases literarias de Alice Kellen--</a></h3>
+          <h3><a href="frases_A_F.html">--Frases literarias Anna K. Franco--</a></h3>
+      </div>
+      
+      <div class="item" id="seccion_comentarios">
+        <h3>COMENTARIOS</h3>
+        <div id="sec_comentarios">
+          <h2>Comentarios</h2>
+          <div id="comentarios"></div>
+          <h3>Envía tu comentario:</h3>
+          <input type="text" id="comentario">
+          <button onclick="agregar_comentario()">Enviar</button>
+        </div>
+    </div>
+    </div>
+    </main>
+  </div>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneMoreChapter</title>
+    <link rel="stylesheet" href="estilos113.css">
+  
+  <script>
+  // Solicitar el nombre del usuario
+  var nombre = prompt("Por favor, introduce tu nombre:");
+
+  // Saludar al usuario
+  alert("¡Hola, " + nombre + "!");
+
+  // Preguntar si quiere ver información sobre libros
+  var respuesta = confirm("¿Quieres ver un poco sobre libros?");
+
+  if (respuesta) {
+    // Mostrar el contenido oculto
+    document.getElementById("contenido").style.display = "block";
+  } else {
+    // Mostrar mensaje de despedida
+    alert("Será en otra oportunidad entonces. ¡Gracias!");
+  }
+</script>
+<div id="contenido">
+
+</div>
+
+  <script>
+   function mostrarOpciones() {
+      var opciones = document.getElementById("opciones");
+      opciones.style.display = "block";
+    }
+  </script>
+  
+</head>
+<body>
+  <div class="portada">
+    <h1>One more chapter</h1>
+    <p>Leer es vivir más de una vez</p>
+    <br>
+    <button onclick="mostrarOpciones()">Inicio</button>
+  </div>
+
+  <div id="opciones" class="opciones">
+    <header>
+      <nav>
+              <h4><a href="#genero">GÉNERO</a></h4>
+              <h4><a href="#autores">AUTORES</a></h4>
+              <h4><a href="#frases">FRASES</a></h4>
+      </nav>
+    </header>
+    
+    <main>
+    
+      <div class="item" id="genero">
+          <h3>GÉNERO</h3>
+          <br>
+          <h3><a href="generos.html">Fantasía</a></h3>
+          <h3><a href="thrillers.html">Thrillers</a></h3>
+          <h3><a href="romance.html">Romance</a></h3>
+          <h3><a href="clasicos.html">Clásicos</a></h3>
+    <br><br>
+      <div class="item" id="autores">
+          <h3>AUTORES</h3>
+          <br>
+          <h3><a href="john_green.html">John Green</a></h3>
+          <h3><a href="alice_kellwn.html">Alice Kellen</a></h3>
+          <h3><a href="paulo_coelho.html">Paulo Coelho</a></h3>
+          <h3><a href="anna_franko.html">Anna K. Franco</a></h3>      
+      </div>
+    
+      <div class="item" id="frases">
+          <h3>FRASES</h3>
+          <br>
+          <h3><a href="frases_J_G.html">--Frases literarias de John Green--</a></h3>
+          <h3><a href="frases_P_C.html">--Frases literarias de Paulo Coelho--</a></h3>
+          <h3><a href="frases_A_K.html">--Frases literarias de Alice Kellen--</a></h3>
+          <h3><a href="frases_A_F.html">--Frases literarias Anna K. Franco--</a></h3>
+      </div>
+    </main>
+  </div>
+  </div>
+</body>
+</html>
+
